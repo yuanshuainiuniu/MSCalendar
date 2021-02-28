@@ -1,0 +1,16 @@
+PODS:
+  - MSCalendar (0.1.0)
+
+DEPENDENCIES:
+  - MSCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  MSCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSCalendar: b4fc8226a2508ffbd971327982c42b279ed4ac23
+
+PODFILE CHECKSUM: 2beedb272f577098f902b29d891316ef7e9d7a2d
+
+COCOAPODS: 1.10.1

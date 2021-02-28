@@ -1,0 +1,6 @@
+framework module MSCalendar {
+  umbrella header "MSCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

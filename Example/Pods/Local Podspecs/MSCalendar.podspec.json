@@ -1,0 +1,22 @@
+{
+  "name": "MSCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of MSCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/717999274@qq.com/MSCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "717999274@qq.com": "marshal819@zto.com"
+  },
+  "source": {
+    "git": "https://github.com/717999274@qq.com/MSCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MSCalendar/Classes/**/*"
+}
