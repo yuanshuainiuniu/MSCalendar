@@ -11,7 +11,6 @@
 		142BB4978746D2861BD9D9A42FA7E555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		148C36CFB8C73CC7EF6129ACF5525062 /* Pods-MSCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADE268FA6CBCD9EEF04904E5922C0DB /* Pods-MSCalendar_Tests-dummy.m */; };
 		1EC40D29DEA5023ADB0000CAEB2FB40E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2AFBDEA7808B490BB1847FF14E681C15 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A8068214D9243F4666789126B3CC6 /* ReplaceMe.swift */; };
 		553CF394C75D7A32BAE00960B27F4EEB /* Pods-MSCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C65F5DB93E39C646E24B55CD8CB31A /* Pods-MSCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C1B2926F141E70D19854B9A0633BCCE /* MSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99316ED7E35297F159B32DF68EB8A533 /* MSCalendar-dummy.m */; };
 		99C3136BB7D67A18A6FE08901F55D396 /* Pods-MSCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABBF3EE920114CE307BD5CBEEE725D6 /* Pods-MSCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030A8068214D9243F4666789126B3CC6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MSCalendar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0628B0BE6B50E9B9DD6A2296FF5B2B36 /* Pods-MSCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSCalendar_Example.modulemap"; sourceTree = "<group>"; };
 		241713B6E3A5325E224C261288DFF419 /* Pods-MSCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
 		320DB635C714E3DAA43AB1744514D491 /* MSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSCalendar.modulemap; sourceTree = "<group>"; };
@@ -50,7 +48,7 @@
 		5BDADAD5FB67426FE417F445A91701D9 /* MSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSCalendar.release.xcconfig; sourceTree = "<group>"; };
 		634B6A9110039D4EE8F7FB7C9EC1A3E1 /* MSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSCalendar-umbrella.h"; sourceTree = "<group>"; };
 		6ABBF3EE920114CE307BD5CBEEE725D6 /* Pods-MSCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D83E56BC944E857D1C01040F6FD0AFF /* Pods_MSCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSCalendar_Tests.framework; path = "Pods-MSCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D83E56BC944E857D1C01040F6FD0AFF /* Pods_MSCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EEE1FBBA6CAC14D5FB179EAB7EE2526 /* Pods-MSCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		867C3DDF848A68ECCE4EEB452C34380A /* MSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSCalendar.debug.xcconfig; sourceTree = "<group>"; };
@@ -58,15 +56,15 @@
 		89AC326193DD52D6254974A327609F8A /* Pods-MSCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSCalendar_Example-Info.plist"; sourceTree = "<group>"; };
 		8E540859098D08D6C0E06D49406CF646 /* Pods-MSCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99316ED7E35297F159B32DF68EB8A533 /* MSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSCalendar-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0264ED8D5F81A9CC16C027F1BF2EEA0 /* MSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSCalendar.framework; path = MSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A06A8A847A8C9EAF73288F1A1203F42E /* MSCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6D1A4084C73DB2120BFF8E9D3879738 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0264ED8D5F81A9CC16C027F1BF2EEA0 /* MSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06A8A847A8C9EAF73288F1A1203F42E /* MSCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6D1A4084C73DB2120BFF8E9D3879738 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B3A7C8A7852797C39F0360084D320DBE /* Pods-MSCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C00593288F8E09D574E5C09E1513B531 /* Pods-MSCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CECF1C69B5C5EE05361B3B85E45C6712 /* Pods-MSCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF6DF9A60919BD0395BCEEB3E9330B3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D16561773E963A3BF93B27AB3493F92B /* Pods_MSCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSCalendar_Example.framework; path = "Pods-MSCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6DF9A60919BD0395BCEEB3E9330B3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D16561773E963A3BF93B27AB3493F92B /* Pods_MSCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D398F17A86CEB4628CCE2942A57E31F9 /* Pods-MSCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DACD23F72A8A7B82A3D6D86B1B7C4EB6 /* MSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSCalendar-prefix.pch"; sourceTree = "<group>"; };
 		F789774B57D650AF39E730573DA0C383 /* MSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSCalendar-Info.plist"; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 		884BD9F89E389A7BF027585D086D830E /* MSCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				030A8068214D9243F4666789126B3CC6 /* ReplaceMe.swift */,
 				DE1E993AAC5B93B90B327C3690E95B50 /* Pod */,
 				4C3A99CF05368B216CBD1E4BEAF47B86 /* Support Files */,
 			);
@@ -317,6 +314,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6C572F7CC2A59076E623DB7B062C7D9B = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,7 +386,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C1B2926F141E70D19854B9A0633BCCE /* MSCalendar-dummy.m in Sources */,
-				2AFBDEA7808B490BB1847FF14E681C15 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5BDADAD5FB67426FE417F445A91701D9 /* MSCalendar.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -655,8 +657,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -699,6 +700,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 867C3DDF848A68ECCE4EEB452C34380A /* MSCalendar.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -718,6 +720,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
